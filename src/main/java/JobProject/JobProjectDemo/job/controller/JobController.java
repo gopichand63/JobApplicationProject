@@ -1,9 +1,9 @@
-package JobProject.JobProjectDemo.controller;
+package JobProject.JobProjectDemo.job.controller;
 
 
-import JobProject.JobProjectDemo.model.Job;
-import JobProject.JobProjectDemo.repository.JobRepository;
-import JobProject.JobProjectDemo.service.JobService;
+import JobProject.JobProjectDemo.job.model.Job;
+import JobProject.JobProjectDemo.job.repository.JobRepository;
+import JobProject.JobProjectDemo.job.service.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

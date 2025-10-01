@@ -1,4 +1,4 @@
-package JobProject.JobProjectDemo.model;
+package JobProject.JobProjectDemo.job.model;
 
 import JobProject.JobProjectDemo.company.model.Company;
 import jakarta.persistence.*;

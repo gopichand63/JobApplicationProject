@@ -1,6 +1,6 @@
-package JobProject.JobProjectDemo.service;
+package JobProject.JobProjectDemo.job.service;
 
-import JobProject.JobProjectDemo.model.Job;
+import JobProject.JobProjectDemo.job.model.Job;
 
 import java.util.List;
 

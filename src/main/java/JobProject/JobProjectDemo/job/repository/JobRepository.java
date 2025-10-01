@@ -1,7 +1,7 @@
-package JobProject.JobProjectDemo.repository;
+package JobProject.JobProjectDemo.job.repository;
 
 
-import JobProject.JobProjectDemo.model.Job;
+import JobProject.JobProjectDemo.job.model.Job;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

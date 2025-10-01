@@ -1,7 +1,7 @@
-package JobProject.JobProjectDemo.service;
+package JobProject.JobProjectDemo.job.service;
 
-import JobProject.JobProjectDemo.model.Job;
-import JobProject.JobProjectDemo.repository.JobRepository;
+import JobProject.JobProjectDemo.job.model.Job;
+import JobProject.JobProjectDemo.job.repository.JobRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
