@@ -20,7 +20,11 @@ public class Company {
     @OneToMany(mappedBy = "company")
     private List<Job> jobs;
 
-    @OneToMany
+    public List<Review> getReviews() {
+        return reviews;
+    }
+
+    @OneToMany(mappedBy = "company")
     private List<Review> reviews;
 
     public Company() {
