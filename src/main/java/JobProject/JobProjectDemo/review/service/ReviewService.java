@@ -8,4 +8,8 @@ public interface ReviewService {
 
     List<Review> getAllReviews(Long companyId);
 
+    void addReview(Long companyId, Review review);
+
+    boolean updateReview(Long companyId, Long reviewId, Review review);
+
 }
